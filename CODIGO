@@ -1,0 +1,21 @@
+print('\n\t\t --- LISTA DE COMPRAS ---\n')
+lista = []
+while True:
+    print('1 Adicionar item')
+    print('2 Remover item  ')
+    print('3 Ver a lista ')
+    print('4 Sair ')
+    opcao =str(input('Escolha sua opcao:'))
+
+    if opcao == '1':
+        mercadorias=str(input('Digite o item a ser adicionado:'))
+        lista.append(mercadorias)
+        pass
+    elif opcao == '2':
+        mercadorias=str(input('Digite o item a ser adicionado:'))
+        lista.append(mercadorias)
+    elif opcao == '3':    
+            print(f'{lista}')        
+    else:
+            print('OBRIGADO PELAS AS COMPRAS')
+            break 
